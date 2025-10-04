@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Change this to your project's subpath, e.g., '/your-project-name/'
+  base: '/Endreact/', // This is the crucial line to add/change
 });

@@ -6,8 +6,8 @@ import { HomePage, ProductsPage, ProductDetailPage, AboutPage } from './pages';
 const App = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
-        { name: 'Shop', path: '/products' },
-        { name: 'About', path: '/about' },
+        { name: 'Shop', path: './products' },
+        { name: 'About', path: './about' },
     ];
     
     return (
